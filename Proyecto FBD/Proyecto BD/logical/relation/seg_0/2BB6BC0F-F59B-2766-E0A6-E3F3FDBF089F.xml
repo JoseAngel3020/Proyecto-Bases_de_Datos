@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Viaje_Parada" directorySegmentName="seg_0" id="2BB6BC0F-F59B-2766-E0A6-E3F3FDBF089F">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 21:06:23 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<sourcePk>04BB6341-1836-6692-A9C4-6423BBF3BDD9</sourcePk>
+<targetPk>DFEFCD9A-F3F8-9C3B-EBB8-FBD981CE9852</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>AB2CF92E-99A1-45A0-4CB1-71F1E111390F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CCEFFC3D-5EA4-18B1-87CE-3AA01B052ECF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

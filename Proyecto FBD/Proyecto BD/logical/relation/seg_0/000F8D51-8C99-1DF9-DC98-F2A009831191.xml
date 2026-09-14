@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pasajero_Solicitud" directorySegmentName="seg_0" id="000F8D51-8C99-1DF9-DC98-F2A009831191">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 21:07:13 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<sourcePk>10A1D725-AB0B-F984-2909-70E6F7B9390C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7F58330E-C51E-CA3A-6A70-3DD528FA4980</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>732DA234-FAFB-B6C9-92BB-61FF2D219081</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

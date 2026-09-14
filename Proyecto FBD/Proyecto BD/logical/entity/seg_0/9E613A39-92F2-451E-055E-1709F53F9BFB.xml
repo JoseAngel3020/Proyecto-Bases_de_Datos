@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9E613A39-92F2-451E-055E-1709F53F9BFB" name="Estudiante">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:35:53 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="documento_identidad" id="9B3FB364-56C3-8B44-CD8E-C999C9D39BCB">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:36:07 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="4C389B1A-2306-2CD9-EDF5-92280B5CAE78">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:36:35 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="DD50FCFF-EF1A-69A3-BBD3-EF256FF77E6C">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:38:47 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="universidad" id="0695C04C-C767-3C22-773C-78962520FA98">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:44:00 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programa" id="D5DD9862-CAC2-D280-DC1A-F88FF76A9AFE">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:44:11 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="98517837-53CF-5783-C40C-4DD1785A1B04">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:44:46 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_celular" id="1C6497CE-3D1A-169B-D86C-C98CEBEE21E7">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:45:08 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10A1D725-AB0B-F984-2909-70E6F7B9390C" name="Estudiante PK">
+<createdBy>dca27</createdBy>
+<createdTime>2026-09-10 20:38:40 UTC</createdTime>
+<ownerDesignName>Proyecto BD</ownerDesignName>
+<engineerTo>
+<item key="A866BDC4-DE5C-47FF-2B33-CA0E181E96A9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9B3FB364-56C3-8B44-CD8E-C999C9D39BCB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
